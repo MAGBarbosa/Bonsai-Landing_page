@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bonsai</title>
+    <style>
+      .themeButton {
+        font-size: 12px;
+        padding: 5px 8px;
+        transition: all 300ms ease-in-out;
+        border: 1px solid #6a8f19;
+      }
+      .dark {
+        background-color: #491b1b;
+      }
+      .dark .container {
+        background-color: #dcb49a;
+        box-shadow: 10px 5px rgba(0, 0, 0, 0.4);
+      }
+      .dark #section2 {
+        background-color: #bb8867;
+      }
+
+      .dark #bonsai-types,
+      .dark #bonsai-question {
+        color: white;
+      }
+      .dark button {
+        border: 1px solid #d4ab90;
+      }
+      .dark button:hover {
+        background-color: #d4ab90;
+      }
+      #bonsai-question,
+      #bonsai-types {
+        color: #6a8f19;
+        font-size: 1.2rem;
+      }
+      body {
+        background-color: #c0bb7b;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        padding: 0px 20px 20px 20px;
+      }
+      .topFigure {
+        max-width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        margin: 0px auto;
+        padding: revert;
+      }
+      .container {
+        max-width: 800px;
+        border-radius: 10px;
+        background-color: #f4f3e7;
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        box-shadow: 10px 5px rgba(0, 0, 0, 0.1);
+      }
+      .top {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
+        padding: 0px;
+        max-width: 800px;
+      }
+      .overHeader1 {
+        position: absolute;
+        bottom: 25%;
+        left: 8px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        max-width: 800px;
+        max-height: 200px;
+      }
+      h1 {
+        font-size: 35px;
+      }
+      h2 {
+        font-size: 22px;
+      }
+      .overHeader2 {
+        position: absolute;
+        text-align: center;
+        bottom: 0%;
+        left: 8px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        padding-bottom: 4px;
+        max-width: 800px;
+        max-height: 100px;
+      }
+      #section2 {
+        background-color: #e9efaf;
+        padding: 8px 0px;
+        margin-top: 20px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px;
+        padding: 20px;
+      }
+      .grid img {
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: all 250ms ease-in-out;
+        filter: contrast(110%);
+        box-shadow: 10px 5px rgba(0, 0, 0, 0.1);
+      }
+      .grid img:hover {
+        transform: scale(1.1);
+        filter: contrast(130%);
+      }
+      h1,
+      h2 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        padding: 0px 20px;
+        font-size: 16px;
+      }
+      button {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+        border: 1px solid #c0bb7b;
+        padding: 10px 15px;
+        border-radius: 6px;
+        background: white;
+        font-size: 15px;
+        transition: all 300ms ease-in-out;
+      }
+      button:hover {
+        background: #c0bb7b;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+      }
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        color: white;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      footer a {
+        color: #e9efaf;
+      }
+      .dark footer a:visited {
+        color: #d4ab90;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="theme" class="themeButton">Dark Theme</button>
+    <div class="container">
+      <div class="top">
+        <img
+          class="topFigure"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/220/original/bonsai-feature-image.png?1685790880"
+        />
+
+        <h1 class="overHeader1">Bonsai</h1>
+        <h2 class="overHeader2">Natural Beauty and Harmony</h2>
+      </div>
+
+      <p id="bonsai-question">
+        Did you know that Bonsai literally translates to "tray planting"?
+      </p>
+      <p>
+        <strong>Bonsai</strong> are trees and plants grown in containers in such
+        a way so that they look their most beautiful, even prettier than those
+        growing in the wild. Cultivating bonsai is an
+        <strong>artistic hobby</strong>, as well as a
+        <strong>traditional Japanese art.</strong>
+      </p>
+      <p>
+        Bonsai trees are associated with
+        <strong> harmony, inner peace, balance</strong> and
+        <strong>positivity</strong>. In <strong>Buddhism</strong> bonsai trees
+        are believed to be an <strong>object of meditation and focus</strong>,
+        which is why they are commonly found in the centre of Zen gardens.
+      </p>
+      <p>
+        In essence, any plant that can be grown in a small container can be
+        cultivated as a bonsai. The trees can grow as tall as one meter (3.3
+        feet), or be small enough to be fit in one's palm.
+      </p>
+      <section id="section2">
+        <p id="bonsai-types">There are several basic styles of bonsai:</p>
+        <p>
+          <em>Chokkan</em> style bonsai trees have a trunk that grows straight
+          upward and branches that extend left, right, forward and behind in a
+          well-balanced manner;
+        </p>
+        <p>
+          <em>Shakan</em> style trees have a slanted trunk that leans to one
+          side;
+        </p>
+        <p><em>Moyogi</em> style trees have a curved S-shaped trunk;</p>
+
+        <p>
+          <em>Fukinagashi</em> style describes a tree that is shaped by strong
+          winds, with bent trunks and branches growing in one direction;
+        </p>
+        <p>
+          <em>Kengai</em> style describes a tree that curves downward, which can
+          be found in areas with steep slopes such as cliffs.
+        </p>
+      </section>
+      <div class="grid">
+        <a href="">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/226/original/virtual_bonsai01_pic07.jpg?1685790918"
+            class="bonsai1"
+        /></a>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/225/original/virtual_bonsai01_pic06.jpg?1685790913"
+          class="bonsai2"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/297/original/A_079_Feb.jpg?1685809848"
+          class="bonsai3"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/299/original/A_028_Nov.jpg?1685809875"
+          class="bonsai4"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/298/original/A_045_Nov.jpg?1685809866"
+          class="bonsai5"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/300/original/A_100_Feb.jpg?1685809891"
+          class="bonsai6"
+        />
+      </div>
+      <button id="learn">Master the art of Bonsai</button>
+    </div>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        if (body.classList[0] != "dark") {
+          body.classList.add("dark");
+          let bonsai1 = (document.querySelector(".bonsai1").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/326/original/3a-acer-palmatum-deshojo.jpg?1685829553");
+          let bonsai2 = (document.querySelector(".bonsai2").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/328/original/10b-Diospyros-virginiana.jpg?1685829699");
+          let bonsai3 = (document.querySelector(".bonsai3").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/329/original/13-Ginkgo-biloba.jpg?1685829722");
+          let bonsai4 = (document.querySelector(".bonsai4").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/330/original/8a-acer-palmatum-tunb.jpg?1685829759");
+          let bonsai5 = (document.querySelector(".bonsai5").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/332/original/5a-pseudocydonia-sinensis.jpg?1685829822");
+          let bonsai6 = (document.querySelector(".bonsai6").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/331/original/11-crataegus.jpg?1685829783");
+        } else {
+          let bonsai1 = (document.querySelector(".bonsai1").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/226/original/virtual_bonsai01_pic07.jpg?1685790918");
+          let bonsai2 = (document.querySelector(".bonsai2").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/225/original/virtual_bonsai01_pic06.jpg?1685790913");
+          let bonsai3 = (document.querySelector(".bonsai3").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/297/original/A_079_Feb.jpg?1685809848");
+          let bonsai4 = (document.querySelector(".bonsai4").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/299/original/A_028_Nov.jpg?1685809875");
+          let bonsai5 = (document.querySelector(".bonsai5").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/298/original/A_045_Nov.jpg?1685809866");
+          let bonsai6 = (document.querySelector(".bonsai6").src =
+            "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/300/original/A_100_Feb.jpg?1685809891");
+          body.classList.remove("dark");
+        }
+      }
+      let btn = document.querySelector(".themeButton");
+      btn.addEventListener("click", changeTheme);
+
+      function lookForCourse() {
+        let reply = prompt(
+          "Are you looking for a course to learn Bonsai art? Yes or No."
+        );
+        reply = reply.toLowerCase().trim();
+        if (reply === "yes") {
+          alert("Redirecting you to a Course page. Happy learning! 🌳🍁");
+          window.location.href = "https://www.bonsaiempire.com/courses";
+        } else {
+          alert(
+            "You can still find valuable resources online if you ever change your mind. Have fun! 🌳🍁"
+          );
+        }
+      }
+      let courses = document.querySelector("#learn");
+      courses.addEventListener("click", lookForCourse);
+    </script>
+  </body>
+  <footer>
+    <p>
+      Coded by
+      <a
+        href="https://www.linkedin.com/in/m%C3%A9lanie-barbosa-267778257/"
+        target="_blank"
+      >
+        Mélanie Barbosa.
+      </a>
+    </p>
+  </footer>
+</html>
